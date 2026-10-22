@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://api.github.com; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex, nofollow">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111111" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Français">
+<title>Ton français du jour</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Libre+Franklin:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&amp;display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="masthead">
+  <a class="brand" href="#/"><span>Ton français</span><span>du jour</span></a>
+</header>
+<nav id="nav" hidden><div class="tabs">
+  <a href="#/" data-tab="today">Aujourd’hui</a>
+  <a href="#/archives" data-tab="archives">Archives</a>
+  <a href="#/progres" data-tab="progres">Progrès</a>
+  <a href="#/mots" data-tab="mots">Mots</a>
+</div></nav>
+<main id="view"><p class="note">Chargement…</p></main>
+<footer id="foot" hidden><button type="button" id="disconnect" class="link">Disconnect this device</button></footer>
+<script src="app.js"></script>
+</body>
+</html>
